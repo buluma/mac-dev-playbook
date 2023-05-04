@@ -14,7 +14,7 @@
 
   roles:
     - role: elliotweiser.osx-command-line-tools
-    - role: geerlingguy.mac.homebrew
+    - role: geerlingguy.mac
       tags: ['homebrew']
     - role: buluma.dotfiles
       when: configure_dotfiles
