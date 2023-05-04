@@ -10,7 +10,7 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
 
   - Install Ansible (following the guide in [README.md](README.md))
   - **Sign in in App Store** (since `mas` can't sign in automatically)
-  - Clone mac-dev-playbook to the Mac: `git clone git@github.com:geerlingguy/mac-dev-playbook.git`
+  - Clone mac-dev-playbook to the Mac: `git clone git@github.com:buluma/mac-dev-playbook.git`
   - Drop `config.yml` from `~/Dropbox/Apps/Config` to the playbook (copy over the network or using a USB flash drive).
   - Run the playbook with `--skip-tags post`.
     - If there are errors, you may need to finish up other tasks like installing 'old-fashioned' apps first (since I try to place Photoshop in the Dock and it can't be installed automatically). Then, run the playbook again ;)

@@ -1,8 +1,8 @@
 ---
 roles:
   - name: elliotweiser.osx-command-line-tools
-  - name: geerlingguy.dotfiles
-  - name: geerlingguy.mac.homebrew
+  - name: buluma.dotfiles
+  - name: buluma.mac.homebrew
 
 collections:
-  - name: geerlingguy.mac
+  - name: buluma.mac
